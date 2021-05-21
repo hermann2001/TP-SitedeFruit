@@ -1,1 +1,13 @@
-
+/*body{
+    background: url(Images/images5.jpg) fixed no-repeat;
+}*/
+header{
+    margin-top: 10px;
+}
+.nav-link:hover{
+    color: blueviolet;
+}
+#titre_about, #titre_contact{
+    font-size: larger;
+    color: darkgrey;
+}
