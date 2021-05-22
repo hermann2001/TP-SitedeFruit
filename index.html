@@ -4,15 +4,17 @@
 		<title>Accueil\Travail de Hermann d'ALMEIDA</title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="bootstrap-icons.css" rel="stylesheet" type="text/css">
+		<link href="Framework/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="Framework/bootstrap-icons.css" rel="stylesheet" type="text/css">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+
+		<!--En tête-->
 		<div class="container bg-dark text-white">
 			<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
 				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-					<svg class="bi me-2" width="40" height="32"><img src="Images/images.jpeg" width="34" height="27"></svg>
+					<svg class="bi me-2" width="40" height="32"><img src="Images/logo.jpeg" width="34" height="27"></svg>
 					<span class="fs-4">Les Fruits</span>
 				</a>
 				<ul class="nav nav-pills">
@@ -25,11 +27,101 @@
 			</header>
 		</div>
 		<div class="b-example-divider"></div>
-		
-		<main>
 
+		<!--Corps de la page-->
+		<main class="container">
+
+			<!--Le diaporama-->
+			<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="bg-dark"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="Images/carousel1.jpg" height="200px"/></svg>
+			
+						<div class="container">
+							<div class="carousel-caption text-start text-dark">
+								<h1>Les Fruits</h1>
+								<h4>Riche en vitamines et indispensable pour une alimentation bonne et équilibrée.</h4>
+								<p><a class="btn btn-lg btn-primary" href="description.html">Voir plus</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="Images/carousel2.jpg" height="200px" class="index_carousel_img"/></svg>
+			
+						<div class="container">
+							<div class="carousel-caption text-end text-dark">
+								<h1>Salade de Fruits</h1>
+								<h4>Mélange de plusieurs fruits de même catégorie.</h4>
+								<p><a class="btn btn-lg btn-primary" href="categorie.html">Catégorie de Fruits</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Le reste-->
+			<div id="exemple_de_fruit">
+				<h1 class="text-center text-decoration-underline" id="fil-actualite">Fil d'actualité</h1>
+				<div id="exempleFruit" class="container">
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/lesfruits_actu.jpeg"/></p>
+						<div class="exemple col-7">
+							<h3>Les fruits : </h3>
+							<h5>Riche en vitamines. Ils ont un bon goût et sont indispensable pour une bonne alimentation, une alimentation équilibrée et saine.</h5>
+						</div>
+					</div>
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/salade_actu.jpeg"/></p>
+						<div class="exemple col-7">
+							<h3>Salade de fruits : </h3>
+							<h5>Un mélange de fruits de la même catégorie donnant une autre forme de goût, donnant plus de vitamines et très appétissant.</h5>
+						</div>
+					</div>
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/raisin_actu.jpg"/></p>
+						<div class="exemple col-7">
+							<h3>Les Raisins</h3>
+							<h5>C'est le fruit de la vigne. Il sert à la fabrication du vin mais se mange aussi comme fruit. On a également du jus de raisin qui est très bon ainsi que l'huile faite à base de son pépin.</h5>
+						</div>
+					</div>
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/orange_actu.jpeg"/></p>
+						<div class="exemple col-7">
+							<h3>Orange : </h3>
+							<h5>De la catégorie des argumes, elle est réputée pour sa grande teneur en vitamine C.</h5>
+						</div>
+					</div>
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/pomme_actu.jpg"/></p>
+						<div class="exemple col-7">
+							<h3>Pomme : </h3>
+							<h5>Avec un goût discret, agréable et des propriétés nutritionnelles remarquables, Il a un bon pouvoir antioxydant.</h5>
+						</div>
+					</div>
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/banane_actu.jpg"/></p>
+						<div class="exemple col-7">
+							<h3>Banane : </h3>
+							<h5>Elle contient énormement de nutriments. Etant riche en fibres, en minéraux et en amidon résistant, elle entre parfaitement dans le cadre d'un régime minceur.</h5>
+						</div>
+					</div>
+					<div id="exemple" class="row d-flex flex-direction-row justify-content-between align-items-center">
+						<p class="col-3"><img src="Images/citron_actu.jpg"/></p>
+						<div class="exemple col-7">
+							<h3>Citron : </h3>
+							<h5>Avec sa jolie couleur jaune et son goût acide, le citron est reconnaissable entre mille. Cet agrume aux vertus santé uniques est consommé partout à travers le monde.</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</main>
 
+		<!--Pieds de page-->
 		<footer class="container bg-dark text-white text-center">
 				<div id="aboutUs">
 					<div id="titre_about" class="text-decoration-underline">À propos de Nous</div>
@@ -47,7 +139,7 @@
 				</div>
 			</footer>
 
-		<script src="bootstrap.bundle.js"></script>
+		<script src="Framework/bootstrap.bundle.js"></script>
 		<script src="javaScript/script.js"></script>
 	</body>
 </html>
