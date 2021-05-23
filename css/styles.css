@@ -1,8 +1,16 @@
-/*body{
-    background: url(Images/images5.jpg) fixed no-repeat;
-}*/
 header{
     margin-top: 10px;
+}
+.index_carousel_img{
+    padding-bottom: 05%;
+}
+footer{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#exemple_de_fruit{
+    margin-top: 25px;
+    background-color: lawngreen;
 }
 .nav-link:hover{
     color: blueviolet;
@@ -10,4 +18,89 @@ header{
 #titre_about, #titre_contact{
     font-size: larger;
     color: darkgrey;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+#fil-actualite{
+    background-color: yellow;
+}
+.exemple{
+    margin-left: 10px;
+}
+#cadre{
+    border: solid grey;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    color: limegreen;
+    background-color: #ffffff;
+}
+#categorie1{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 0.5rem;
+    background-color: green;
+}
+#categorie2{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 0.5rem;
+    background-color: yellow;
+}
+#categorie3{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 0.5rem;
+    background-color: darkolivegreen;
+}
+#categorie4{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 0.5rem;
+    background-color: orange;
+}
+#categorie5{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: wheat;
+}
+#categorie6{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    border-radius: 0.5rem;
+    background-color: yellowgreen;
+}
+#h4_cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#desc_div{
+    border: solid grey;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    color: thistle;
+    background-color: #000000;
+}
+#titre_desc{
+    color: lightgreen;
+}
+#def_desc, #role_desc{
+    color: lightgreen;
+    font-weight: bold;
+    font-style: italic;
 }
