@@ -4,15 +4,17 @@
 		<title>Catégorie\Travail de Hermann d'ALMEIDA</title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
-		<link href="bootstrap-icons.css" rel="stylesheet" type="text/css">
+		<link href="Framework/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="Framework/bootstrap-icons.css" rel="stylesheet" type="text/css">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+
+		<!--En tête-->
 		<div class="container bg-dark text-white">
 			<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
 				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-					<svg class="bi me-2" width="40" height="32"><img src="Images/images.jpeg" width="34" height="27"></svg>
+					<svg class="bi me-2" width="40" height="32"><img src="Images/logo.jpeg" width="34" height="27"></svg>
 					<span class="fs-4">Les Fruits</span>
 				</a>
 				<ul class="nav nav-pills">
@@ -25,11 +27,170 @@
 			</header>
 		</div>
 		<div class="b-example-divider"></div>
-		
-		<main>
 
+		<!--Corps de la page-->
+		<main class="container text-dark" id="main-categorie">
+			<div id="categorie1" class="container">
+				<h2 class="text-decoration-underline text-center">Les Fruits à Noyau</h2>
+				<div class="row justify-content-center"><h5 id="cat_exemple" class="col-9 text-center">Ce sont des fruits qui contient une partie centrale dure servant à la reproduction de l'arbre fruitier.</h5></div>
+				<div class="row justify-content-center"><h3 class="col-9 text-center text-decoration-underline">Exemples</h3></div>
+				<div class="row justify-content-around flex-wrap">
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/avocat_cat.jpg"/></p>
+						<h4 id="h4_cat" class="text-center">Avocat</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/abricot_cat.jpg"/></p>
+						<h4 id="h4_cat" class="text-center">Abricot</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/cerise_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Cérise</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/peche_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Pêche</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/prune_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Prune</h4>
+					</div>
+				</div>
+			</div>
+			<div id="categorie2" class="container">
+				<h2 class="text-decoration-underline text-center">Les Fruits à Pépin</h2>
+				<div class="row justify-content-center"><h5 id="cat_exemple" class="col-9 text-center">Il s'agit des fruits à chair fine et juteuse qui se prêtent à une foule de préparations.</h5></div>
+				<div class="row justify-content-center"><h3 class="col-9 text-center text-decoration-underline">Exemples</h3></div>
+				<div class="row justify-content-around flex-wrap">
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/pomme_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Pomme</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/poire_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Poire</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/raisin_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Raisin</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/coing_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Coing</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/pasteque_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Pastèque</h4>
+					</div>
+				</div>
+			</div>
+			<div id="categorie3" class="container">
+				<h2 class="text-decoration-underline text-center">Les Baies</h2>
+				<div class="row justify-content-center"><h5 id="cat_exemple" class="col-9 text-center">Fruit charmu, en général indéhiscent et contenant une ou plusieures graines.</h5></div>
+				<div class="row justify-content-center"><h3 class="col-9 text-center text-decoration-underline">Exemples</h3></div>
+				<div class="row justify-content-around flex-wrap">
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/myrtille_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Myrtille</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/groseille_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Groseille</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/cassis_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Cassis</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/datte_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Datte</h4>
+					</div>
+				</div>
+			</div>
+			<div id="categorie4" class="container">
+				<h2 class="text-decoration-underline text-center">Les Agrumes</h2>
+				<div class="row justify-content-center"><h5 id="cat_exemple" class="col-9 text-center">Ce sont les fruits provenant des arbres appartenant au genre citrus. Ces fruits se distingue des autres fruits par leur structure en quatiers.</h5></div>
+				<div class="row justify-content-center"><h3 class="col-9 text-center text-decoration-underline">Exemples</h3></div>
+				<div class="row justify-content-around flex-wrap">
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/citron_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Citron</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/pamplemousse_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Pamplemousse</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/orange_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Orange</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/clementine_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Clémentine</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/mandarine_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Mandarine</h4>
+					</div>
+				</div>
+			</div>
+			<div id="categorie5" class="container">
+				<h2 class="text-decoration-underline text-center">Les Fruits à Coque</h2>
+				<div class="row justify-content-center"><h5 id="cat_exemple" class="col-9 text-center">Ce sont des fruits contenant une seule graine oléagineuse comestible enfermée dans une coque sclérifiée à maturité. Des graines de fruit à coque favorable à la santé.</h5></div>
+				<div class="row justify-content-center"><h3 class="col-9 text-center text-decoration-underline">Exemples</h3></div>
+				<div class="row justify-content-around flex-wrap">
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/noix_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Noix</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/amande_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Amande</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/chataigne_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Châtaigne</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/noisette_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Noisette</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/cadjou_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Cadjou</h4>
+					</div>
+				</div>
+			</div>
+			<div id="categorie6" class="container">
+				<h2 class="text-decoration-underline text-center">Les Fruits Exotique</h2>
+				<div class="row justify-content-center"><h5 id="cat_exemple" class="col-9 text-center">Ce sont des fruits qui participent aux activités de l'import-export connu sous le nom de fruit tropical. Ils proviennent des régions au climat tropical, équatorial et ne supportent pas le froid.</h5></div>
+				<div class="row justify-content-center"><h3 class="col-9 text-center text-decoration-underline">Exemples</h3></div>
+				<div class="row justify-content-around flex-wrap">
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/ananas_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Ananas</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/litchi_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Litchi</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/mangue_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Mangue</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/papaye_cat.jpeg"/></p>
+						<h4 id="h4_cat" class="text-center">Papaye</h4>
+					</div>
+					<div id="cadre" class="col-4">
+						<p class="row justify-content-center"><img src="Images/grenadille_cat.jpg"/></p>
+						<h4 id="h4_cat" class="text-center">Grenadille</h4>
+					</div>
+				</div>
+			</div>
 		</main>
 		
+		<!--Pieds de page-->
 		<footer class="container bg-dark text-white text-center">
 			<div id="aboutUs">
 				<div id="titre_about" class="text-decoration-underline">À propos de Nous</div>
@@ -47,7 +208,7 @@
 			</div>
 		</footer>
 
-		<script src="bootstrap.bundle.js"></script>
+		<script src="Framework/bootstrap.bundle.js"></script>
 		<script src="javaScript/script.js"></script>
 	</body>
 </html>
