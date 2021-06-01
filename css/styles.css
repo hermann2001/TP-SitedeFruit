@@ -1,6 +1,3 @@
-header{
-    margin-top: 10px;
-}
 .index_carousel_img{
     padding-bottom: 05%;
 }
@@ -11,9 +8,6 @@ footer{
 #exemple_de_fruit{
     margin-top: 25px;
     background-color: lawngreen;
-}
-.nav-link:hover{
-    color: blueviolet;
 }
 #titre_about, #titre_contact{
     font-size: larger;
@@ -32,7 +26,7 @@ footer{
     }
 }
 #fil-actualite{
-    background-color: yellow;
+    background-color: whitesmoke;
 }
 .exemple{
     margin-left: 10px;
